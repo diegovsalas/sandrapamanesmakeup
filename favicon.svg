@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <!-- Disco espresso: da contraste propio en pestañas claras y oscuras -->
+  <circle cx="32" cy="32" r="32" fill="#292321"/>
+  <g transform="translate(-15.1,-23.7) scale(3.05)">
+    <g transform="translate(0,32) scale(0.1,-0.1)" fill="#F8F5F0" stroke="none">
+      <path d="M140 190 c0 -5 9 -10 20 -10 11 0 20 5 20 10 0 6 -9 10 -20 10 -11 0
+-20 -4 -20 -10z"/>
+      <path d="M110 165 c-18 -21 -3 -32 16 -13 10 9 12 18 6 22 -5 3 -15 -1 -22 -9z"/>
+      <path d="M186 172 c-7 -12 22 -38 31 -28 4 3 0 14 -9 22 -9 10 -18 12 -22 6z"/>
+      <path d="M137 73 c-3 -5 8 -8 23 -8 15 0 26 3 23 7 -2 4 -13 7 -23 7 -10 0
+-21 -3 -23 -7z"/>
+    </g>
+  </g>
+</svg>
