@@ -444,8 +444,8 @@ nav a:hover {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 56px 72px;
-    max-width: 1000px;
+    gap: 46px 60px;
+    max-width: 940px;
     margin: 0 auto;
 }
 
@@ -459,13 +459,22 @@ nav a:hover {
     color: var(--espresso);
 }
 
-/* Todos los logotipos se igualan por alto, sin importar su proporción */
+/* Los logotipos se igualan por peso visual, no por alto estricto:
+   los muy alargados bajan y los apilados o cuadrados suben. */
 .collab-logo svg,
 .collab-logo img {
     display: block;
     height: 34px;
     width: auto;
-    max-width: 230px;
+    max-width: 210px;
+}
+
+.collab-logo.is-wide img {
+    height: 26px;
+}
+
+.collab-logo.is-compact img {
+    height: 44px;
 }
 
 /* Los PNG ya vienen en espresso; esta opacidad los iguala al taupe de los SVG */
@@ -489,8 +498,16 @@ nav a:hover {
 
     .collab-logo svg,
     .collab-logo img {
-        height: 28px;
-        max-width: 180px;
+        height: 27px;
+        max-width: 150px;
+    }
+
+    .collab-logo.is-wide img {
+        height: 21px;
+    }
+
+    .collab-logo.is-compact img {
+        height: 36px;
     }
 }
 
